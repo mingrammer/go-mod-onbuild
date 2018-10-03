@@ -8,7 +8,7 @@ Go + module onbuild docker image.
 
 ## Usage
 
-```console
+```shell
 echo "FROM mingrammer/go-mod-onbuild" > Dockerfile
 docker build -t [IMAGE_NAME] .
 ```
