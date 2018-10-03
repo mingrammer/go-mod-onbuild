@@ -2,8 +2,8 @@ FROM golang:alpine
 
 ENV GO111MODULE on
 
-RUN set -ex
-RUN apk add --no-cache git gcc musl-dev
+RUN set -ex; \
+    apk add --no-cache git gcc musl-dev
 
 WORKDIR /go/src/app
 ONBUILD COPY . .
