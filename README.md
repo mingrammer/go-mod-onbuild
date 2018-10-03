@@ -12,3 +12,7 @@ Go + module onbuild docker image.
 echo "FROM mingrammer/go-mod-onbuild" > Dockerfile
 docker build -t [IMAGE_NAME] .
 ```
+
+## License
+
+MIT
