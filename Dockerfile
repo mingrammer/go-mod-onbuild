@@ -8,5 +8,5 @@ RUN set -ex; \
 WORKDIR /home/app
 ONBUILD COPY . .
 ONBUILD RUN go mod vendor
-ONBUILD RUN go build -o app
-CMD ["./app"]
+ONBUILD RUN go build -o /bin/app
+ENTRYPOINT ["app"]
