@@ -4,7 +4,7 @@
 
 > Similar to [go-dep-onbuild](https://github.com/cometkim/go-dep-onbuild) except it uses Go module, not dep.
 
-Go + module onbuild docker image. 
+Go + module onbuild docker image based on `golang:alpine`
 
 ## Usage
 
